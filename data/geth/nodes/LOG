@@ -1,0 +1,35 @@
+=============== Apr 14, 2024 (MSK) ===============
+20:02:44.213067 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+20:02:44.332300 db@open opening
+20:02:44.333417 version@stat F·[] S·0B[] Sc·[]
+20:02:44.414702 db@janitor F·2 G·0
+20:02:44.414702 db@open done T·82.4021ms
+20:05:29.908610 db@close closing
+20:05:29.909145 db@close done T·535.2µs
+=============== Apr 14, 2024 (MSK) ===============
+20:06:07.213432 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+20:06:07.214129 version@stat F·[] S·0B[] Sc·[]
+20:06:07.214129 db@open opening
+20:06:07.214654 journal@recovery F·1
+20:06:07.218012 journal@recovery recovering @1
+20:06:07.258879 memdb@flush created L0@2 N·1037 S·31KiB "loc..seq,v28":"version,v1"
+20:06:07.263968 version@stat F·[1] S·31KiB[31KiB] Sc·[0.25]
+20:06:07.398390 db@janitor F·3 G·0
+20:06:07.398390 db@open done T·184.261ms
+20:32:12.121053 db@close closing
+20:32:12.122128 db@close done T·540.3µs
+=============== Apr 14, 2024 (MSK) ===============
+20:34:30.089288 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+20:34:30.089899 version@stat F·[1] S·31KiB[31KiB] Sc·[0.25]
+20:34:30.089899 db@open opening
+20:34:30.089899 journal@recovery F·1
+20:34:30.093148 journal@recovery recovering @3
+20:34:30.176968 memdb@flush created L0@5 N·16914 S·400KiB "loc..seq,v1058":"n:\xff..ong,v9603"
+20:34:30.178467 version@stat F·[2] S·431KiB[431KiB] Sc·[0.50]
+20:34:30.325916 db@janitor F·4 G·0
+20:34:30.325916 db@open done T·236.0174ms
+20:34:30.519969 table@compaction L0·2 -> L1·0 S·431KiB Q·17954
+20:34:30.584820 table@build created L1@8 N·8089 S·275KiB "loc..seq,v1058":"version,v1"
+20:34:30.584820 version@stat F·[0 1] S·275KiB[0B 275KiB] Sc·[0.00 0.00]
+20:34:30.648827 table@compaction committed F-1 S-155KiB Ke·0 D·9862 T·128.8576ms
+20:34:30.649378 table@remove removed @2
